@@ -23,8 +23,8 @@ namespace tic_tac_toe
             playField = new Field(3);
             human = new Human('X');
             ai = new AI('O');
-            pictureBox1.Image = Image.FromFile("E:\\Player.png");
-            pictureBox2.Image = Image.FromFile("E:\\AI.png");
+            pictureBox1.Image = Image.FromFile("player.png");
+            pictureBox2.Image = Image.FromFile("AI.png");
         }
 
         private void load_Labels()
